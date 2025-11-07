@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+sqlite-utils
+pydantic
+pytest
+python-dotenv
