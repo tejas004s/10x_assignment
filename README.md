@@ -42,7 +42,7 @@ wallpaint/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/tejas004s/wall_painting_robot
    cd wallpaint
    ```
 
@@ -53,12 +53,13 @@ wallpaint/
 
 3. **Create required directories**
    ```bash
-   mkdir -p data logs
+   mkdir -p  logs
    ```
 
 ## Running the Application
 
 ### 1. Start Redis Server
+Make sure docker enginer is running
 
 Redis is required for WebSocket real-time updates:
 
